@@ -8,7 +8,11 @@ body {
   margin: 0 auto;
 }
 
-.header.container {
+.header {
+  background-color: #ffffff;
+}
+
+.container {
   display: flex;
   align-items: center;
 }
@@ -19,8 +23,15 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
   text-decoration: none;
+}
+
+.logo-web {
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -114,6 +125,10 @@ body {
   color: #434455;
 }
 
+.team {
+  background-color: #f4f4fd;
+}
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -175,6 +190,14 @@ body {
 
 .footer {
   background-color: #2e2f42;
+}
+
+.footer-logo .logo-web {
+  color: #4d5ae5;
+}
+
+.footer-logo .logo-studio {
+  color: #f4f4fd;
 }
 
 .footer-text {
